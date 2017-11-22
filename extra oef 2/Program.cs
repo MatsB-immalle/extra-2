@@ -9,6 +9,27 @@ namespace extra_oef_2
     {
         static void Main(string[] args)
         {
+
+
+            IsVeelvoudVan(3, 11);
+
+
+
+           
+        }
+
+
+        static void IsVeelvoudVan(int getal, int veelvoud)
+        {
+            bool waarheid = false;
+            if(veelvoud % getal ==0)
+            {
+                waarheid = true;
+            }
+            Console.WriteLine(waarheid);
+
+
+
         }
     }
 }
